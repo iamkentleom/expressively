@@ -1,7 +1,7 @@
 {
   "name": "expressively",
   "version": "1.0.0",
-  "description": "Production ready Express REST API scaffolding",
+  "description": "production ready Express REST API scaffolding",
   "main": "index.js",
   "repository": {
     "type": "git",
