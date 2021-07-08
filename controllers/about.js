@@ -4,4 +4,4 @@ const message = (req, res) => {
     })
 }
 
-module.exports = { message }
+export { message }

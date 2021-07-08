@@ -1,6 +1,7 @@
+import { version as ver } from '../package.json'
+
 const version = () => {
-    const ver = require('../package.json').version
     return ver
 }
 
-module.exports = { version }
+export { version }

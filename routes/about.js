@@ -1,8 +1,10 @@
-const about = require('express').Router()
+import { Router } from 'express'
 
-const { message } = require('../controllers/about')
-const { sample } = require('../middlewares/sample')
+import { message } from '../controllers/about'
+import { sample } from '../middlewares/sample'
+
+const about = Router()
 
 about.get('/', sample, message)
 
-module.exports = { about }
+export default about

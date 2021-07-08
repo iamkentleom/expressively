@@ -3,4 +3,4 @@ const sample = (req, res, next) => {
     next()
 }
 
-module.exports = { sample }
+export { sample }

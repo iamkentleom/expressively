@@ -8,8 +8,8 @@
     "url": "https://github.com/iamkentleom/expressively.git"
   },
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index",
+    "start": "node -r esm index",
+    "dev": "nodemon -r esm index",
     "test": "jest"
   },
   "author": "Kent Leo L. Makibulan",
@@ -17,6 +17,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
+    "esm": "^3.2.25",
     "express": "^4.17.1",
     "socket.io": "^4.1.2"
   },

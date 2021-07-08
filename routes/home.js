@@ -1,7 +1,9 @@
-const home = require('express').Router()
+import { Router } from 'express'
 
-const { message } = require('../controllers/home')
+import { message } from '../controllers/home'
+
+const home = Router()
 
 home.get('/', message)
 
-module.exports = { home }
+export default home

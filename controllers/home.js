@@ -1,4 +1,4 @@
-const { version } = require('../models/version')
+import { version } from '../models/version'
 
 const message = (req, res) => {
     res.send({
@@ -6,4 +6,4 @@ const message = (req, res) => {
     })
 }
 
-module.exports = { message }
+export { message } 
