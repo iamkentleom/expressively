@@ -8,8 +8,8 @@
     "url": "https://github.com/iamkentleom/expressively.git"
   },
   "scripts": {
-    "start": "node -r esm app",
-    "dev": "nodemon -r esm app",
+    "start": "env NODE_ENV=production node -r esm app",
+    "dev": "env NODE_ENV=development nodemon -r esm app",
     "test": "jest"
   },
   "author": "Kent Leo L. Makibulan",
